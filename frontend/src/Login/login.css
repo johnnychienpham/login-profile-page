@@ -1,0 +1,78 @@
+.login-container{
+    display:flex;
+    flex-direction: column;
+    border-radius:30px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 45%;
+}
+
+
+.login-title{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container > input{
+    border-radius: 9px;
+    border: 2px solid rgb(216,217,219);
+    padding:10px 120px 10px 2px;
+    margin-bottom: 5px;
+}
+
+.input-container > label{
+    color: rgb(106, 77, 228);
+    font-weight: bold;
+    margin:10px 0px 0px 0px;
+}
+
+.check-form{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.signin-button{
+    color:white;
+    background-color:rgb(46,9,219) ;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+
+.signin-button:hover{
+    color:white;
+    background-color:rgb(25, 5, 117) ;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 400;
+    
+    
+}
+
+
+
+.check-password{
+    display: flex;
+    align-items: center;
+}
+.check-password > label{
+    font-weight: bold;
+}
+.check-password>input[type=checkbox]{
+    accent-color: rgb(46,9,219)
+}
+

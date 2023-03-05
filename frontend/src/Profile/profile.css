@@ -1,0 +1,87 @@
+.profile-container{
+    display:flex;
+    flex-direction: column;
+    border-radius:30px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 45%;
+    
+}
+
+.profile-title{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    
+}
+
+.input-profile-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.input-profile-container > input{
+    border-radius: 9px;
+    border:2px solid rgb(216,217,219);
+    padding:10px 120px 10px 2px;
+    margin-bottom: 20px;
+}
+
+.input-profile-container > label{
+    color: rgb(200,200,200);
+    font-weight: bold;
+    margin:10px 0px 0px 0px;
+}
+
+.form-actions{
+    display: flex;
+    margin-top: 20px;
+    align-self: flex-end;
+    gap:15px
+}
+
+.form-actions>.update-button{
+    color:white;
+    background-color:rgb(46,9,219) ;
+    padding: 5px 10px;
+    border:  none;
+    border-radius: 6px;
+    font-weight: 400;
+}
+
+.form-actions>.update-button:hover{
+    color:white;
+    background-color:rgb(25, 5, 117) ;
+    padding: 5px 10px;
+    border:  none;
+    border-radius: 6px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.form-actions>.cancel-button{
+    color:rgb(106, 77, 228);
+    background-color:rgb(226, 223, 238) ;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.form-actions>.cancel-button:hover{
+    color:rgb(106, 77, 228);
+    background-color:rgb(173, 164, 213) ;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.error{
+    color: red;
+    font-size:10px;
+    margin-top:0px;
+}
